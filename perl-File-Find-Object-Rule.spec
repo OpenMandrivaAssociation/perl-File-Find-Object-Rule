@@ -4,7 +4,7 @@
 Summary:	Perl module providing an alternative interface to File::Find::Object
 Name:		perl-%{modname}
 Version:	%{perl_convert_version %{modver}}
-Release:	1
+Release:	2
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/File::Find::Object::Rule
