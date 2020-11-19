@@ -1,10 +1,11 @@
 %define	modname	File-Find-Object-Rule
-%define	modver	0.0309
+%define	modver	0.0312
+%global debug_package %{nil}
 
 Summary:	Perl module providing an alternative interface to File::Find::Object
 Name:		perl-%{modname}
 Version:	%{perl_convert_version %{modver}}
-Release:	2
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/File::Find::Object::Rule
