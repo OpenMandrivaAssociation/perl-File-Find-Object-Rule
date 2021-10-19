@@ -48,5 +48,5 @@ RELEASE_TESTING=1 ./Build test
 %files
 %{_bindir}/findorule
 %{_datadir}/perl5/File/*
-%{_mandir}/man1/*
-%{_mandir}/man3/*
+%doc %{_mandir}/man1/*
+%doc %{_mandir}/man3/*
