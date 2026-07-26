@@ -1,15 +1,14 @@
 %define	modname	File-Find-Object-Rule
-%define	modver	0.0312
 %global debug_package %{nil}
 
 Summary:	Perl module providing an alternative interface to File::Find::Object
 Name:		perl-%{modname}
-Version:	%{perl_convert_version %{modver}}
-Release:	2
+Version:	0.0312
+Release:	3
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/File::Find::Object::Rule
-Source0:	https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/File-Find-Object-Rule-%{modver}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/File-Find-Object-Rule-%{version}.tar.gz
 BuildRequires:	perl-devel
 BuildRequires:	perl(Module::Build)
 BuildRequires:	perl(Carp)
@@ -31,7 +30,7 @@ File::Find::Object::Rule is a friendlier interface to File::Find::Object.
 It allows you to build rules which specify the desired files and directories.
 
 %prep
-%autosetup -n %{modname}-%{modver} -p1
+%autosetup -n %{modname}-%{version} -p1
 
 %build
 perl Build.PL INSTALLDIRS=vendor
